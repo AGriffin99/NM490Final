@@ -1,5 +1,135 @@
 
 * {
     background:#c4e8e3;
+    color: #266058;
+/* font-family: 'Sriracha', cursive; */
+/* font-family: 'Indie Flower', cursive; */
+font-family: 'Leckerli One', cursive;
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Permanent Marker', cursive;
+ /* *
+ /font-family: 'Source Code Pro', monospace; */
+/* font-family: 'Satisfy', cursive; */
+/* font-family: 'Sriracha', cursive; */
 
+}
+.navbar,.navbar-nav,.navbar-expand-lg ,.navbar-light, .navbar-collapse, #navbarNavAltMarkup, form{
+  background-color: #fff;
+  color:#266058;
+}
+.outline-success, .my-2,.my-sm-0, .btn-outline-success{
+  color:#266058;
+  border-color: #266058;
+
+}
+
+
+.outline-success:hover, .my-2:hover,.my-sm-0:hover, .btn-outline-success:hover
+{
+  color: #fff;
+background-color: #266058;
+border-color: #266058;
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.col{
+  flex: 50%;
+  padding: 0 4px;
+}
+/* .col img{
+  vertical-align: middle;
+} */
+
+
+
+h2{
+  font-family: 'Source Code Pro', monospace; font-size: 16px;
+color:#266058;}
+p{
+font-family: 'Sriracha', cursive;
+}
+.box{
+
+  float:left;
+  height: 100%;
+  width:465px;
+  box-shadow: 0 0 10px #000;
+}
+/* img{
+  width:100%;
+  height:auto;
+} */
+/* div{
+  width:100%;
+  height:200px;
+} */
+/* a:hover image{
+  op
+} */
+#name{
+  /* background-color: black; */
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  position: relative;
+  top: 30%;
+  left: 30%;
+  /* opaity: 0; */
+  text-align: center;
+}
+/* .rollover:hover #name{
+  opacity:1;
+} */
+.rollover{
+  /* opacity:.2; */
+position: absolute;
+height: 100%;
+width: 100%;
+opacity: 0;
+  transition: .5s ease;
+  background-color: #266058;
+
+}
+#kb:hover .rollover{
+  opacity:1;
+  /* -webkit-box-shadow: 0 0 10px #ccc; */
+  box-shadow: 0 0 10px black;
+}
+#kb{
+  /* background-image: url("https://www.blackgirlscode.com/uploads/1/5/8/2/15823664/3746627_orig.jpg"); */
+background-image: url("images/KimberlyBryant.jpg");
+/* max-width: 100%;
+height: auto; */
+position:relative;
+height: 300px;
+width:450px;
+/* max-width: 100%; */
+background-repeat: no-repeat;
+background-size:contain;
+/* background:#ccc; */
+}
+
+#placeholder{
+
+  background-image: url("https://www.google.com/url?sa=i&url=http%3A%2F%2Fclipart-library.com%2Fclipart%2Fwoman-clipart_2.htm&psig=AOvVaw3saUPmUxgWS6um7-zpCq0P&ust=1592724922899000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDYuurwj-oCFQAAAAAdAAAAABAD");
+  height: 300px;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#lesson{
+font-family: 'Source Code Pro', monospace;
+}
+.square{
+
+background-color: black;
+color:#fff;
+width:500px;
+height:100%;;
+float:right;
 }
