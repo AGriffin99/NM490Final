@@ -1,7 +1,8 @@
 var urls =[
   'kimberlybryant.html',
-  'about.html',
-  'reshmasaujani.html'
+  'reshmasaujani.html',
+  'sandrapersing.html',
+  'temitopeadediran.html'
 
 ];
 

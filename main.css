@@ -16,6 +16,7 @@ font-family: 'Leckerli One', cursive;
 .navbar,.navbar-nav,.navbar-expand-lg ,.navbar-light, .navbar-collapse, #navbarNavAltMarkup, form{
   background-color: #fff;
   color:#266058;
+  font-family: 'Leckerli One', cursive;
 }
 .outline-success, .my-2,.my-sm-0, .btn-outline-success{
   color:#266058;
@@ -46,10 +47,12 @@ border-color: #266058;
 } */
 
 
-
+#link{font-family: 'Source Code Pro', monospace; font-size: 16px;}
 h2{
+  padding:10px 20px;
+
   font-family: 'Source Code Pro', monospace; font-size: 16px;
-color:#266058;}
+color:#000;}
 p{
 font-family: 'Sriracha', cursive;
 }
@@ -57,7 +60,7 @@ font-family: 'Sriracha', cursive;
 
   float:left;
   height: 100%;
-  width:465px;
+  /* width:465px; */
   box-shadow: 0 0 10px #000;
 }
 /* img{
