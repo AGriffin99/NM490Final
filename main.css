@@ -16,7 +16,7 @@
 .navbar,.navbar-nav,.navbar-expand-lg ,.navbar-light, .navbar-collapse, #navbarNavAltMarkup, form{
   background-color: #fff;
   color:#266058;
-  font-family: 'Leckerli One', cursive;
+  /* font-family: 'Leckerli One', cursive; */
 }
 .outline-success, .my-2,.my-sm-0, .btn-outline-success{
   color:#266058;
@@ -178,7 +178,6 @@ img{ max-width:100%;}
 
 
 
-
 /*
 Template Name: Gorgo
 Author: Levent Usta
@@ -201,14 +200,14 @@ Description: A template by Aristotheme.
 /*  - Grid
 /*  - Footer Styles
 /*  - Media Queries
-
+*/
 
 /*=================================*/
 
 /*=================================*/
 /* Reset & Clearfix Styles
 /*=================================*/
-s
+
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } :focus { outline: 0; } ins { text-decoration: none; } del { text-decoration: line-through; } table { border-collapse: collapse; border-spacing: 0; }
 
@@ -218,21 +217,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* Main Styles
 /*=================================*/
 
-@font-face{
+@font-face{*{
     font-family: "Mango-Salsa";
      src: url("Mango Salsa - Personal Use.ttf");
-}
+}}
 
 * { box-sizing: border-box; }
 html {
-    font-family: sans-serif; /* 1 */
+    font-family: "Mango-Salsa"; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
     background: #FFFFFF;
     color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+    /* font-family: 'Mango-Salsa'; */
     font-size: 18px;
     line-height: 1.65;
     opacity: 0;
@@ -325,7 +324,7 @@ hr{
 pre,
 code,
 samp {
-    font-family: "quicksand", Consolas, monospace;
+    /* font-family: 'Mango-Sala'; */
     font-size: inherit;
 }
 
@@ -371,7 +370,7 @@ pre {
 
 /*===== Titles =====*/
 .site-title {
-    font-family: 'Righteous',helvetica,sans-serif;
+    font-family: "Mango-Salsa";
     font-size: 26px;
     color: #90D4C5;
     line-height: 1.5em;
@@ -785,7 +784,7 @@ pre {
 }
 .thumbnail-description {
     color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+    /* font-family: 'quicksand', Arial, sans-serif; */
     font-size: 16px;
     margin: 0 auto;
     max-height: 5em;
