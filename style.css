@@ -89,9 +89,37 @@ html {
 h2,p{
   font-family: 'Dosis', sans-serif;
   font-size: 10px;
+  float: right;
+}
+#lesson{
+font-family: 'Source Code Pro', monospace;
+}
+#lesson h3{
+  font-family: "Mango-Salsa", cursive;
+}
+.square{
+
+background-color: black;
+color:#fff;
+width:250px;
+height:100%;;
+float:right;
+}
+
+
+.box{
+
+  float:left;
+  height: 100%;
+  /* width:465px; */
+  box-shadow: 0 0 10px #000;
+  margin: 25px;
+}
+.bio{
+  /* padding: 50px; */
 }
 body {
-    background: #FFFFFF;
+    background: #000000;
     color: #2c2c2c;
     font-family: "Mango-Salsa", cursive;
     font-size: 18px;
@@ -1371,7 +1399,7 @@ nav[role="navigation"] {
     }
 
     h2 {
-        font-size: 2.6rem;
+        font-size: 1.5rem;
     }
 
     h3 {
