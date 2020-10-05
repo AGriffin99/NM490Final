@@ -85,6 +85,11 @@ html {
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
 }
+
+h2,p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 10px;
+}
 body {
     background: #FFFFFF;
     color: #2c2c2c;
