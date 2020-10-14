@@ -71,7 +71,7 @@ border-color: #266058;
 
 
 .site-tagline{
-  font-size: 92px;
+  font-size: 150px;
   text-align: center;
   background: -webkit-linear-gradient(#380000, #DDC084);
   background: -webkit-linear-gradient(left, #380000, #DDC084);
@@ -101,14 +101,30 @@ font-family: 'Source Code Pro', monospace;
 }
 #lesson h3{
   font-family: "Mango-Salsa", cursive;
+  font-size: 36px;
 }
+
+#container{
+  padding: 50px;
+}
+
+
 .square{
 
-background-color: black;
+/* background-color: black;
 color:#fff;
 width:250px;
 height:100%;;
-float:right;
+float:right; */
+background-color: black;
+color:#fff;
+width: 45%;
+    height:100%;;
+float:left;
+    padding: 50px;
+    box-sizing: border-box;
+    clear: right;
+
 }
 
 
@@ -116,16 +132,26 @@ float:right;
 
   float:left;
   height: 100%;
+  width: 45%;
   /* width:465px; */
   box-shadow: 0 0 10px #000;
   margin: 25px;
+    box-sizing: border-box
 }
 .bio{
   /* padding: 50px; */
 }
+header{
+  background: black;
+}
+
+site-header{
+font-size: 100px;
+}
 body {
-    background: #000000;
+    background: #ffffff;
     color: #2c2c2c;
+    /* color:white; */
     font-family: "Mango-Salsa", cursive;
     font-size: 18px;
     line-height: 1.65;
@@ -994,7 +1020,8 @@ nav[role="navigation"] {
     overflow: hidden;
 }
 /*===== Footer =====*/
-.site-footer { padding: 40px 200px;}
+.site-footer {background: black;
+  padding: 40px 200px;}
 
 /*=================================*/
 /* Structure
@@ -1063,12 +1090,17 @@ nav[role="navigation"] {
 /* Footer Styles
 /*=================================*/
 .site-footer {
-    color: #2c2c2c;
-    font-family: 'quicksand', Arial, sans-serif;
+  width:100%;
+  font-family: 'Dosis', sans-serif;
+  background: black;
+  color: white;
+  float: left;
+    color: white;
+    /* font-family: 'quicksand', Arial, sans-serif; */
 }
 .site-footer p { margin: 0; font-size: 16px;display: inline;}
 .site-footer a,
-.site-footer a:visited { color: #2c2c2c; }
+.site-footer a:visited { color: white; }
 .site-footer a:hover { color: #90D4C5; }
 
 /*=================================*/
@@ -1143,7 +1175,7 @@ nav[role="navigation"] {
         margin-bottom: 60px;
     }
     .site-tagline p {
-        font-size: 36px;
+        font-size: 28px;
     }
     /*===== Navigations =====*/
     .cd-nav-trigger {
@@ -1354,6 +1386,8 @@ nav[role="navigation"] {
     }
     .site-tagline {
         margin-bottom: 100px;
+        font-size: 150px;
+        text-align: center;
         width: 75%;
     }
     .site-tagline p {
