@@ -41,7 +41,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
      src: url("Mango Salsa - Personal Use.ttf");
 }
 
-
+footer{
+  font-family: 'Dosis', sans-serif;
+  background: black;
+  color: white;
+  float: left;
+}
 
 .navbar,.navbar-nav,.navbar-expand-lg ,.navbar-light, .navbar-collapse, #navbarNavAltMarkup, form{
   background-color: #fff;

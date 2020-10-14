@@ -38,7 +38,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <meta http-equiv="x-ua-compatible" content="ie=edge"> -->
     <title>Technicolor</title>
 
     <link rel="stylesheet" href="style.css" media="screen" />
@@ -322,11 +322,15 @@ $(function(){
         </section>
 
          <footer class="site-footer cf">
-            <p class="footer-text">© Copyright 2015 </p>
+            <p class="footer-text">© Copyright 2020 </p>
             <nav class="languages" role="navigation">
-              <ul>
 
-                <li class="active"><a href="#">EN |</a></li>
+              <ul>
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link disabled" href="#">Skills</a>
+                <a class="nav-item nav-link" href="#" onClick="rando(); return false;">Random</a>
+                <li class="active"><a href="#">EN</a></li>
                 <!-- <li><a href="#">FR</a></li> -->
 
               </ul>
