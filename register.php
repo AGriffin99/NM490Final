@@ -80,7 +80,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // Attempt to execute the prepared statement
             if($stmt->execute()){
                 // Redirect to login page
-                header("location: login.php");
+                header("location: welcome.php");
             } else{
                 echo "Something went wrong. Please try again later.";
             }
@@ -94,7 +94,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $mysqli->close();
 }
 ?>
-<!--
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -134,4 +134,4 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </form>
     </div>
 </body>
-</html> -->
+</html>

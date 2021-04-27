@@ -18,6 +18,20 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  <?php
+  include "config.php";
+
+  // Check user login or not
+  if(!isset($_SESSION['uname'])){
+      header('Location: index.php');
+  }
+
+  // logout
+  if(isset($_POST['but_logout'])){
+      session_destroy();
+      header('Location: index.php');
+  }
+  ?>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -29,7 +43,10 @@
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
         <a class="nav-item nav-link" href="login.php">Login</a>
-        <a class="nav-item nav-link" href="login.html">Login2</a>
+        <!-- <form method='post' action="">
+            <input type="submit" value="Logout" name="but_logout">
+        </form> -->
+        <!-- <a class="nav-item nav-link" href="login.html">Login2</a> -->
     </div>
   </div>
 </nav>

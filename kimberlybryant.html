@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-    <head>
-          <meta charset="utf-8">
+
+<head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src= "main.js"></script>
+    <!-- <script src="main.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel='stylesheet' href='style.css'>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Leckerli+One&family=Lobster&family=Permanent+Marker&family=Press+Start+2P&family=Satisfy&family=Source+Code+Pro:wght@300&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='editor.css'>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Leckerli+One&family=Lobster&family=Permanent+Marker&family=Press+Start+2P&family=Satisfy&family=Source+Code+Pro:wght@300&family=Sriracha&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand" href="index.html">Technicolor</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Technicolor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
 </button>
-<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-<div class="navbar-nav">
-<a class="nav-item nav-link" href="index.html">Home</a>
-<a class="nav-item nav-link" href="about.html">About</a>
-<a class="nav-item nav-link disabled" href="#">Skills</a>
-<a class="nav-item nav-link" href="#" onClick="rando(); return false;">Random</a>
-<form class="form-inline">
-<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-</form>
-</div>
-</div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link disabled" href="#">Skills</a>
+                <a class="nav-item nav-link" href="#" onClick="rando(); return false;">Random</a>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-<!-- <html lang="en" class="no-js">
+    <!-- <html lang="en" class="no-js">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
     <meta charset="utf-8" />
@@ -52,65 +58,72 @@
 
 
 
-<div id="container">
+    <div id="container">
 
 
-<h1> Kimberly Bryant</h1>
-<div class="box">
-<div> <img src="images/KimberlyBryant1.jpg" /> </div>
-</div>
+        <h1> Kimberly Bryant</h1>
+        <div class="box">
+            <div> <img src="images/KimberlyBryant1.jpg" /> </div>
+        </div>
 
 
-<div class= "square" id="lesson"> <h3 >
-  Fortran <h2> Hello World Program</h2></h3>
+        <div class="square" id="lesson">
+            <h2>
+                Fortran Hello World Program
+            </h2>
 
-program hello
-<hr>
-  &nbsp; implicit none
-  <hr>
-  &nbsp;  write(*,*) 'Hello world! Black girls can code too!'
-  <hr>
-end program hello
-<hr>
-&nbsp;
-More about this simple fortran program: <a  id= "link" href="https://riptutorial.com/fortran/example/3044/hello--world"  target="_blank"> https://riptutorial.com/fortran/example/3044/hello--world</a> </div>
+<!-- <?php include "./editor.html" ?> -->
 
 
-<div class="bio">
+            <!-- <div class="editor">
+                <button class="btn">Go!</button>
+                <div class="first" contenteditable>
+                    Code
+                </div>
+                <iframe class="second">
+                </iframe>
+            </div>
+            <script src="main.js"></script>
+          </div> -->
 
-<h2> Kimberly Bryant is the founder of Black Girls Code. Her Bio: When I was first introduced to computer programming, as a freshman in Electrical Engineering, Fortran and Pascal were the popular languages for newbies in computing and the Apple Macintosh was the new kid on the block. I remember being excited by the prospects, and looked forward to embarking on a rich and rewarding career after college.
+            <hr> &nbsp;  program hello
+            <hr> &nbsp; implicit none
+            <hr> &nbsp; write(*,*) 'Hello world! Black girls can code too!'
+            <hr> end program hello
+            <hr> &nbsp; More about this simple fortran program: <a id="link" href="https://riptutorial.com/fortran/example/3044/hello--world" target="_blank"> https://riptutorial.com/fortran/example/3044/hello--world</a>
+            <h2>Try it out the editor  <a id="link" href="editor.html" target="_blank">Click me</a></h2>
 
-But I also recall, as I pursued my studies, feeling culturally isolated: few of my classmates looked like me. While we shared similar aspirations and many good times, there’s much to be said for making any challenging journey with people of the same cultural background.
+          </div>
 
-Much has changed since my college days, but there’s still a dearth of African-American women in science, technology, engineering and math professions, an absence that cannot be explained by, say, a lack of interest in these fields. Lack of access and lack of exposure to STEM topics are the likelier culprits.
 
-By launching Black Girls Code, I hope to provide  young and pre-teen girls of color opportunities to learn in-demand skills in technology and computer programming at a time when they are naturally thinking about what they want to be when they grow up.
+        <div class="bio">
 
-That, really, is the Black Girls Code mission:  to introduce programming and technology to a new generation of coders, coders who will become builders of technological innovation and of their own futures.
+            <h2> Kimberly Bryant is the founder of Black Girls Code. Her Bio: When I was first introduced to computer programming, as a freshman in Electrical Engineering, Fortran and Pascal were the popular languages for newbies in computing and the Apple
+                Macintosh was the new kid on the block. I remember being excited by the prospects, and looked forward to embarking on a rich and rewarding career after college. But I also recall, as I pursued my studies, feeling culturally isolated: few
+                of my classmates looked like me. While we shared similar aspirations and many good times, there’s much to be said for making any challenging journey with people of the same cultural background. Much has changed since my college days, but
+                there’s still a dearth of African-American women in science, technology, engineering and math professions, an absence that cannot be explained by, say, a lack of interest in these fields. Lack of access and lack of exposure to STEM topics
+                are the likelier culprits. By launching Black Girls Code, I hope to provide young and pre-teen girls of color opportunities to learn in-demand skills in technology and computer programming at a time when they are naturally thinking about
+                what they want to be when they grow up. That, really, is the Black Girls Code mission: to introduce programming and technology to a new generation of coders, coders who will become builders of technological innovation and of their own
+                futures. Imagine the impact that these curious, creative minds could have on the world with the guidance and encouragement others take for granted. I have, and I can’t wait! For more info : <a id="link" href=" https://www.blackgirlscode.com/about-bgc.html"
+                    target="_blank">https://www.blackgirlscode.com/about-bgc.html</a>
+            </h2>
+        </div>
+    </div>
 
-Imagine the impact that these curious, creative minds could have on the world with the guidance and encouragement others take for granted.
+    <footer class="site-footer cf">
+        <p class="footer-text">© Copyright 2020 </p>
+        <nav class="languages" role="navigation">
 
-I have, and I can’t wait!
+            <ul>
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">About</a>
+                <a class="nav-item nav-link disabled" href="#">Skills</a>
+                <a class="nav-item nav-link" href="#" onClick="rando(); return false;">Random</a>
+                <li class="active"><a href="#">EN</a></li>
+                <!-- <li><a href="#">FR</a></li> -->
 
-For more info : <a  id= "link" href=" https://www.blackgirlscode.com/about-bgc.html" target="_blank">https://www.blackgirlscode.com/about-bgc.html</a>
- </h2>
- </div>
-</div>
-
-<footer class="site-footer cf">
-   <p class="footer-text">© Copyright 2020 </p>
-   <nav class="languages" role="navigation">
-
-     <ul>
-       <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-       <a class="nav-item nav-link" href="about.html">About</a>
-       <a class="nav-item nav-link disabled" href="#">Skills</a>
-       <a class="nav-item nav-link" href="#" onClick="rando(); return false;">Random</a>
-       <li class="active"><a href="#">EN</a></li>
-       <!-- <li><a href="#">FR</a></li> -->
-
-     </ul>
-   </nav>
-</footer>
+            </ul>
+        </nav>
+    </footer>
 
 </html>
